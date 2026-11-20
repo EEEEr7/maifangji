@@ -3,12 +3,12 @@
   "version": 1,
   "project": {
     "sourceProjectId": "4d5fad12-1ea0-44f7-ad32-83fb1ff2046c",
-    "name": "夜市置业",
+    "name": "白手买房",
     "device": "x4_pro",
     "manifest": {
       "app_id": "u-10a6ee96",
       "name": "maifangji",
-      "display_name": "夜市置业",
+      "display_name": "白手买房",
       "version": "1.2.0",
       "api": "2.26",
       "entry": "index.lua",
@@ -186,10 +186,10 @@
       },
       "app_icon_s": {
         "key": "app_icon_s",
-        "width": 100,
-        "height": 100,
-        "bpp": 1,
-        "contentHash": "c46d0141b8142a04696d1e531f4d599116ca3dc68600fba3742034ddd8e7e5e1"
+        "width": 88,
+        "height": 88,
+        "bpp": 4,
+        "contentHash": "86934236319fc17727ac908c4919b3bf371dbd7b65ff31b9ccac3685cf157e5a"
       },
       "goods_m_01": {
         "key": "goods_m_01",
@@ -1057,10 +1057,10 @@
     },
     {
       "key": "app_icon_s",
-      "width": 100,
-      "height": 100,
-      "bpp": 1,
-      "contentHash": "c46d0141b8142a04696d1e531f4d599116ca3dc68600fba3742034ddd8e7e5e1",
+      "width": 88,
+      "height": 88,
+      "bpp": 4,
+      "contentHash": "86934236319fc17727ac908c4919b3bf371dbd7b65ff31b9ccac3685cf157e5a",
       "process": {},
       "xicPath": "assets/xic/app_icon_s.xic",
       "rawPath": null,

@@ -2938,7 +2938,7 @@ end
 local function header(g, right)
   g:clear(WHITE)
   g:rect(14, 14, 452, 54, { fill = true, color = BLACK })
-  g:text(28, 30, "夜市置业", { color = WHITE })
+  g:text(28, 30, "白手买房", { color = WHITE })
   g:text(326, 30, right or "页面", { color = WHITE })
   g:line(14, 76, 466, 76, { color = BLACK })
   g:line(14, 81, 466, 81, { color = BLACK })

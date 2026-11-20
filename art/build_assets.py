@@ -306,7 +306,7 @@ def compose() -> list[Path]:
     for key, (name, width, height, reserve) in main_map.items():
         outputs[key] = button(width, height, Image.open(action_icons[name]), reserve)
 
-    outputs["app_icon_s"] = letterbox(Image.open(hero_icon), 100, 100)
+    outputs["app_icon_s"] = Image.open(ART / "icon-88" / "app_icon_s.png").convert("RGB")
     outputs["app_icon_l"] = letterbox(Image.open(hero_icon), 200, 150)
     outputs["splash"] = flatten_ink(splash, 400, 225, "cover")
     outputs["story_bg"] = flatten_ink(story, 480, 480, "cover")

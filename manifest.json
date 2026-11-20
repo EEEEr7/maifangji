@@ -1,7 +1,7 @@
 {
   "app_id": "u-10a6ee96",
   "name": "maifangji",
-  "display_name": "夜市置业",
+  "display_name": "白手买房",
   "version": "1.2.2",
   "api": "2.26",
   "entry": "index.lua",
