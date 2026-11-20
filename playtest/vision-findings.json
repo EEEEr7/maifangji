@@ -1,0 +1,711 @@
+{
+  "model": "doubao-seed-2-1-lite-260915",
+  "imageCount": 48,
+  "findingCount": 88,
+  "findings": [
+    {
+      "file": "unique/001-pm-boot.png",
+      "issue": "继续按钮为黑底白字，墨水屏低对比下可能难辨识",
+      "severity": "P2",
+      "region": "右上偏下",
+      "evidence": "黑底白字的继续按钮在黑白点阵屏上对比偏弱",
+      "type": "low_contrast"
+    },
+    {
+      "file": "unique/001-pm-boot.png",
+      "issue": "继续按钮位置孤立但未被遮挡或重叠",
+      "severity": "P2",
+      "region": "右上偏下",
+      "evidence": "按钮位于文字右侧空白区域，未与其他元素重叠但视觉锚点弱",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/002-pm-story.png",
+      "issue": "vision_call_failed",
+      "severity": "P2",
+      "region": "n/a",
+      "evidence": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+      "type": "other"
+    },
+    {
+      "file": "unique/004-pm-story.png",
+      "issue": "继续按钮为黑底白字可见",
+      "severity": "P0",
+      "region": "右上",
+      "evidence": "右上角黑色按钮上的白色“继续”文字清晰可辨，未出现黑底黑字或白底白字的不可见情况。",
+      "type": "other"
+    },
+    {
+      "file": "unique/004-pm-story.png",
+      "issue": "上部文字未被遮挡",
+      "severity": "P0",
+      "region": "上",
+      "evidence": "上部说明文字未被插画、分界线或其他控件覆盖，字符完整清晰。",
+      "type": "other"
+    },
+    {
+      "file": "unique/004-pm-story.png",
+      "issue": "控件无重叠",
+      "severity": "P1",
+      "region": "右上",
+      "evidence": "“继续”按钮与文字区域、插画区域无重叠，布局正常。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/006-pm-main-empty.png",
+      "issue": "市场区域竖向裂纹穿过价格列及左右分栏",
+      "severity": "P1",
+      "region": "中/上半区，纵向贯穿中间左右分栏的撕裂状裂纹",
+      "evidence": "中间撕裂状裂纹从顶部延伸到底部，穿过价格列区域，也把市场区和出租屋区分开",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/008-pm-help-2.png",
+      "issue": "阅星瞳X4P标签被插画切开",
+      "severity": "P1",
+      "region": "中左",
+      "evidence": "阅星瞳X4P文字被货箱插画的边缘穿过，部分内容被图形遮挡。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/009-pm-help-3.png",
+      "issue": "容量标注前后不一致",
+      "severity": "P2",
+      "region": "左侧帮助文字与右侧顶部",
+      "evidence": "左侧帮助文字写“30/100 表示最多存放100件，目前还剩30个空位”，但右上角出租屋标注为“70/100”，两者数值矛盾。",
+      "type": "other"
+    },
+    {
+      "file": "unique/009-pm-help-3.png",
+      "issue": "说明文字与货仓界面容量描述矛盾",
+      "severity": "P2",
+      "region": "左侧说明区",
+      "evidence": "说明文字称剩余30个空位，结合已存放50+20=70件货物，实际剩余空位应为30个，但右上角标注为70/100，说明已占用70、剩余30，数值对应关系错误。",
+      "type": "other"
+    },
+    {
+      "file": "unique/012-pm-help-6.png",
+      "issue": "vision_call_failed",
+      "severity": "P2",
+      "region": "n/a",
+      "evidence": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+      "type": "other"
+    },
+    {
+      "file": "unique/013-pm-help-7.png",
+      "issue": "医院图标裁切不全",
+      "severity": "P2",
+      "region": "下",
+      "evidence": "位于下方的医院图标顶部有截断，仅显示了下半部分和部分顶部横线。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/016-pm-playing.png",
+      "issue": "竖裂缝分割线遮挡价格文字",
+      "severity": "P1",
+      "region": "中部",
+      "evidence": "\"蛋白罐、微商面膜行的价格数字列被裂缝线穿过，金豆金条、新风滤芯、老头乐车的价格文字也被遮挡截断",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/016-pm-playing.png",
+      "issue": "插画遮挡货物名称文字",
+      "severity": "P1",
+      "region": "中部",
+      "evidence": "\"新风滤芯的文字被左侧的货柜插画盖住",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/016-pm-playing.png",
+      "issue": "右侧货架插画遮挡出租屋区域内容",
+      "severity": "P2",
+      "region": "中部偏右",
+      "evidence": "\"出租屋对应的买入价、数量栏位置下方的货架插画遮挡了空白区域",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/017-pm-buy-overlay.png",
+      "issue": "底部按钮文字对比度不足",
+      "severity": "P1",
+      "region": "下",
+      "evidence": "银行、医院、售楼部、中介等黑底按钮上的浅色文字部分被两侧深色面板遮挡，难以辨认。",
+      "type": "low_contrast"
+    },
+    {
+      "file": "unique/017-pm-buy-overlay.png",
+      "issue": "中部对话框与背景货架插画重叠",
+      "severity": "P2",
+      "region": "中",
+      "evidence": "弹出的购买数量对话框覆盖在背景的货架柜子插画之上，层级关系混乱。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/017-pm-buy-overlay.png",
+      "issue": "左右分区分界线穿过货物列表",
+      "severity": "P2",
+      "region": "上中",
+      "evidence": "市场与出租屋之间的不规则分界线斜穿左侧货物列表，部分遮挡列表的分隔线。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/018-pm-bank.png",
+      "issue": "左侧现金/存款标签被弹窗遮挡",
+      "severity": "P1",
+      "region": "左侧中部",
+      "evidence": "左侧黑底区域的'现金/存款'文字只露出了部分，被底部弹窗完全遮挡了右半部分。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/018-pm-bank.png",
+      "issue": "底部功能按钮被弹窗遮挡",
+      "severity": "P1",
+      "region": "底部功能区",
+      "evidence": "底部的'二手市场/农贸市场/批发市场'等功能按钮上方被弹窗遮挡了上半部分的图标和文字。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/019-pm-hospital.png",
+      "issue": "“看病”按钮斜划线切割文字",
+      "severity": "P1",
+      "region": "中部弹窗按钮区域",
+      "evidence": "白色“看病”按钮上有一条斜向分割线，直接穿过“看病”两个汉字并从按钮边界伸出。",
+      "type": "other"
+    },
+    {
+      "file": "unique/020-pm-agency.png",
+      "issue": "“银行”按钮“行”字被左侧边缘裁切",
+      "severity": "P1",
+      "region": "左下按钮（约x=0-226,y=853-910）",
+      "evidence": "“银行”右侧的“行”字被屏幕左侧黑边裁切。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/021-pm-houses.png",
+      "issue": "顶部门店区底部黑块遮挡上方房源区域",
+      "severity": "P1",
+      "region": "上",
+      "evidence": "右上角存在一块纯黑区域，盖住了其下方的房源上方空间，属于控件遮挡问题。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/021-pm-houses.png",
+      "issue": "第一套商铺简介文字排版拥挤重叠",
+      "severity": "P2",
+      "region": "右上",
+      "evidence": "第一套房源的“30平米的临街单间 收摊后两个人住也够用”文字换行错乱重叠，阅读困难。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/021-pm-houses.png",
+      "issue": "巷口老屋简介文字重叠乱行",
+      "severity": "P2",
+      "region": "右下",
+      "evidence": "巷口老屋的“巷口的80平米老屋，虽旧，但进出方便”文字换行错乱重叠。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/023-pm-market2.png",
+      "issue": "市场区右侧竖虚线穿透文字",
+      "severity": "P1",
+      "region": "中部（X≈670, Y≈170-200）",
+      "evidence": "出租屋下方的\"货物\"字样被右列竖虚线从中间贯穿，影响可读性。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/023-pm-market2.png",
+      "issue": "出租屋右栏与货架插画重叠",
+      "severity": "P2",
+      "region": "右侧中部（X≈840, Y≈210-560）",
+      "evidence": "右列出租屋区域的空白容器下方，货架插画顶部与空白输入框区域重叠，视觉上侵入了该区域。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/023-pm-market2.png",
+      "issue": "底部按钮标签与图标重叠",
+      "severity": "P2",
+      "region": "底部（Y≈830-970）",
+      "evidence": "二手市场/农贸市场等按钮的图标正好压在对应文字标签上方，文字与插画图标互相遮挡。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/024-pm-quit-overlay.png",
+      "issue": "市场表格区域有不规则裂缝状撕裂痕迹",
+      "severity": "P1",
+      "region": "上/中",
+      "evidence": "左侧市场表格中间存在不规则裂缝状撕裂痕迹，将商品、价格列表的垂直展示区域横向割裂。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/024-pm-quit-overlay.png",
+      "issue": "底部市场入口按钮被弹窗遮挡",
+      "severity": "P1",
+      "region": "下",
+      "evidence": "底部的二手市场、农贸市场、批发市场按钮被弹出的遮挡框覆盖，无法完整查看。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/025-gamer-after-weeks.png",
+      "issue": "出租屋列表头文字被插画/分界线遮挡",
+      "severity": "P2",
+      "region": "上/中部 (约 y=110-180)",
+      "evidence": "「出租屋」与「买入价数量」列头与下方分割线、货架插画发生交叠，字迹不完整。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/025-gamer-after-weeks.png",
+      "issue": "底部按钮文字与图标轻微重叠",
+      "severity": "P2",
+      "region": "下排功能按钮区",
+      "evidence": "「银行」「医院」「售楼部」「中介」等按钮上方的图标与下方文字距离过近，有重叠感。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/026-gamer-buy.png",
+      "issue": "对话框上方的商品表格被对话框遮挡切断",
+      "severity": "P2",
+      "region": "中",
+      "evidence": "弹窗位于屏幕中部，挡住了表格底部的“微商面膜”行以及下方内容，原本的表格内容没法完整显示。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/026-gamer-buy.png",
+      "issue": "屏幕左侧和底部的文字被两侧黑色背景裁切遮挡",
+      "severity": "P2",
+      "region": "左下、左侧边缘",
+      "evidence": "左侧和底部有黑色背景，原本应该显示的文字被这部分黑色背景遮挡，无法完整识别。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/027-gamer-buy2.png",
+      "issue": "中部货物列表被纵向裂缝分割线切开并盖住",
+      "severity": "P1",
+      "region": "中部市场/出租屋区域",
+      "evidence": "中间的裂缝分界线贯穿货物与价格行，将蛋白粉罐、新风滤芯、金豆金条、微商面膜的文字和价格数字切割开，部分文字被线条遮挡。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/027-gamer-buy2.png",
+      "issue": "底部导航按钮图标与文字重叠",
+      "severity": "P1",
+      "region": "底部导航栏",
+      "evidence": "二手市场、农贸市场、批发市场等导航按钮的图标叠在文字上方，医院、售楼部等按钮的图标与文字区域重叠，遮挡部分文字内容。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/027-gamer-buy2.png",
+      "issue": "左侧与右侧边缘黑底白字标签被弹窗遮挡一部分",
+      "severity": "P2",
+      "region": "左下角和右下角边缘",
+      "evidence": "左侧的「现」「存」竖排黑底白字标签、右侧的黑色竖条标签被下方购买弹窗遮挡，仅露出部分字符，内容显示不完整。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/028-gamer-footer.png",
+      "issue": "分割线穿过多个商品行，文字被切分",
+      "severity": "P1",
+      "region": "中部中间竖线（约y=170~630）",
+      "evidence": "中间的裂缝分割线从上到下贯穿区域，斜穿「新风滤芯」、「金豆金条」、「微商面膜」、「预制鸡块」等行，还遮挡了部分商品和价格文字。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/028-gamer-footer.png",
+      "issue": "分割线右侧的货架插画遮挡货物区域下半部分",
+      "severity": "P2",
+      "region": "右下中部货架区域（x=510~970, y=425~565）",
+      "evidence": "右侧的仓储货架插画挡住了出租屋货物区域的下半部分，该区域本应显示的剩余货物内容被插画遮盖。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/029-gamer-after-weeks.png",
+      "issue": "横向裂纹割裂中部市场行",
+      "severity": "P1",
+      "region": "中部（约 y=455-545）",
+      "evidence": "一道从中间向右延伸的裂纹切过多个货物行，把中部商品表格和插画区域分成左右两半",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/029-gamer-after-weeks.png",
+      "issue": "中部表格与插画重叠",
+      "severity": "P1",
+      "region": "中部（约 x=0-480, y=440-560）",
+      "evidence": "市场表格的下半部分压在货架插画上，文字被插画元素穿插遮挡",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/029-gamer-after-weeks.png",
+      "issue": "抗原试纸行文字被冰箱插画盖住",
+      "severity": "P2",
+      "region": "中部偏左（约 x=30-460, y=470-540）",
+      "evidence": "左侧玻璃柜插画盖住了「抗原试纸」行，价格 117 被置于插画框内，文字与图形互相穿插",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/029-gamer-after-weeks.png",
+      "issue": "中部出现白色不规则裂痕覆盖区域",
+      "severity": "P2",
+      "region": "中上偏右（约 x=400-610, y=145-445）",
+      "evidence": "一道不规则白色裂纹从顶部斜穿到中部，把右侧出租屋区域与左侧市场区域生硬切开",
+      "type": "other"
+    },
+    {
+      "file": "unique/030-gamer-buy.png",
+      "issue": "抗原材料文字被插画遮挡",
+      "severity": "P1",
+      "region": "中",
+      "evidence": "抗原材料的价格数字与后方货柜插画重叠，文字部分被插画干扰影响可读性",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/030-gamer-buy.png",
+      "issue": "时间进度数字被截断",
+      "severity": "P1",
+      "region": "顶部",
+      "evidence": "顶部时间显示里的52周前的数字被边框截断，显示为3/52周，前面的数字缺失无法识别完整进度",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/030-gamer-buy.png",
+      "issue": "底部按钮文字被弹窗遮挡",
+      "severity": "P2",
+      "region": "底部",
+      "evidence": "弹窗下方的二手市场、农贸市场、批发市场的按钮文字被弹窗底部遮挡，仅露出上半部分",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/031-gamer-houses.png",
+      "issue": "右上角黑色矩形遮挡文字",
+      "severity": "P1",
+      "region": "右上（约x550-880,y120-185）",
+      "evidence": "第一套房产的名称/标题区域被黑色矩形遮挡，仅能看到售价与描述，房产名称完全不可见。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/031-gamer-houses.png",
+      "issue": "首套售房文字排版挤压换行重叠",
+      "severity": "P2",
+      "region": "右上（约x550-980,y245-320）",
+      "evidence": "第一套房产的描述文字行间距过窄，出现上下行文字笔画重叠挤在一起，阅读费力。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/032-gamer-footer.png",
+      "issue": "右侧表格列标签被裁切",
+      "severity": "P1",
+      "region": "右上角",
+      "evidence": "右侧表头只看到“买入价数量”字样，应为“买入价/数量”或类似两列表头，被画面右边缘截断。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/032-gamer-footer.png",
+      "issue": "选中行中的价格数字与插画重叠",
+      "severity": "P1",
+      "region": "中部",
+      "evidence": "“抗原试纸”对应的价格“117”，数字叠加在下方柜子插画上，和柜内物品、边缘重叠，影响阅读。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/032-gamer-footer.png",
+      "issue": "纵向分界线割裂商品列表",
+      "severity": "P2",
+      "region": "中间纵向区域",
+      "evidence": "中部的锯齿状竖分界线从市场表格延伸到下方，穿过了价格列和商品插画区域，割裂了“抗原试纸”“蛋白粉罐”等内容。",
+      "type": "other"
+    },
+    {
+      "file": "unique/033-gamer-after-weeks.png",
+      "issue": "表格表头被中间折线撕裂",
+      "severity": "P1",
+      "region": "中部",
+      "evidence": "‘出租屋 (0/100)’这一行被一道斜向的黑线切过，文字和表格边框线重叠在一起。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/033-gamer-after-weeks.png",
+      "issue": "市场货物列被插画遮挡",
+      "severity": "P1",
+      "region": "中部",
+      "evidence": "‘抗原试纸’这一行被下方的货架/箱子插画遮挡，只露出了部分文字。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/033-gamer-after-weeks.png",
+      "issue": "右上表头文字被裁切",
+      "severity": "P2",
+      "region": "顶部右侧",
+      "evidence": "表头‘买入价数量’最右侧的‘量’字被右边界切掉了一半。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/033-gamer-after-weeks.png",
+      "issue": "选中按钮低对比度可读性差",
+      "severity": "P2",
+      "region": "底部",
+      "evidence": "‘银行’按钮处于黑底白字的反色选中状态，白字在黑背景下辨识度尚可但边缘粘连。",
+      "type": "low_contrast"
+    },
+    {
+      "file": "unique/034-gamer-hospital.png",
+      "issue": "货物价格行文字被下方插画截断",
+      "severity": "P1",
+      "region": "中部市场表格区",
+      "evidence": "\"老头乐车\"和\"抗原试纸\"两行下半部分被下方桌台插画盖住，数字59115、117下边缘被遮挡，行高不足导致文字显示不全。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/034-gamer-hospital.png",
+      "issue": "弹窗遮挡市场/出租屋表格下半行",
+      "severity": "P2",
+      "region": "中部弹窗后方",
+      "evidence": "白色大弹窗遮挡了市场表格第四行（抗原试纸）的下半部分，以及出租屋区域的下半部分内容。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/034-gamer-hospital.png",
+      "issue": "左侧边缘文字被裁切",
+      "severity": "P2",
+      "region": "左下角边缘",
+      "evidence": "左侧边缘竖排的文字（开头为\"现\"\"在\"）大部分被画布左边界裁切，仅露出少量字符，无法完整识别内容。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/034-gamer-hospital.png",
+      "issue": "右上角\"买入价数量\"表头越界",
+      "severity": "P2",
+      "region": "右上角出租屋表头",
+      "evidence": "\"买入价数量\"文字向右延伸超出当前表格的右边界，布局排版溢出。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/035-gamer-footer.png",
+      "issue": "文字被分界线、插画遮挡",
+      "severity": "P1",
+      "region": "中",
+      "evidence": "抗原试纸、蛋白粉罐的货物名称和价格被中间裂纹线、柜子插画遮挡，文字无法完整辨认",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/035-gamer-footer.png",
+      "issue": "文字被插画轮廓截断",
+      "severity": "P1",
+      "region": "中",
+      "evidence": "抗原试纸这一行的货物、价格都被柜子插图的轮廓挡住，文字不完整",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/036-gamer-bank.png",
+      "issue": "弹窗与下层市场表格重叠",
+      "severity": "P1",
+      "region": "中部弹窗区域",
+      "evidence": "银行弹窗覆盖了市场货物表格的下半部分，导致微商面膜等货物信息被遮挡。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/036-gamer-bank.png",
+      "issue": "状态栏与按钮文字对比度极低",
+      "severity": "P1",
+      "region": "左下角和右下角状态栏区域",
+      "evidence": "左侧黑底按钮上的白色文字「现-存」与右侧黑底按钮上的白色文字「-」均模糊不清，难以辨认。",
+      "type": "low_contrast"
+    },
+    {
+      "file": "unique/037-gamer-footer.png",
+      "issue": "vision_call_failed",
+      "severity": "P2",
+      "region": "n/a",
+      "evidence": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+      "type": "other"
+    },
+    {
+      "file": "unique/038-gamer-buy2.png",
+      "issue": "表格分隔线贯穿文字",
+      "severity": "P1",
+      "region": "中部商品表格",
+      "evidence": "从顶部斜向延伸的裂纹状分界线贯穿多个商品和价格文字，微商面膜、金豆金条、老头乐车、抗原试纸及其价格均被该线条切开，可读性受影响。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/038-gamer-buy2.png",
+      "issue": "底部区域文字被侧边按钮遮挡",
+      "severity": "P1",
+      "region": "中部偏下的左右黑色侧边",
+      "evidence": "左侧黑色竖条上仅露出「现」「-」「在」三个字符，右侧黑色竖条仅露出短横线，文字被遮挡无法完整显示。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/038-gamer-buy2.png",
+      "issue": "购买弹窗控件与左侧插画重叠",
+      "severity": "P2",
+      "region": "中部购买金豆金条弹窗",
+      "evidence": "弹窗左侧的金豆金条示意插画与数量加减控件横向紧贴重叠，插画边界侵入了下方数量调节按钮的区域。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/038-gamer-buy2.png",
+      "issue": "按钮文字对比度不足",
+      "severity": "P2",
+      "region": "底部功能按钮区域",
+      "evidence": "底部帮助、结束游戏、历程表按钮为黑底白字，和其余白底黑字的按钮风格不统一，边缘白边略糊，辨识度偏低。",
+      "type": "low_contrast"
+    },
+    {
+      "file": "unique/039-gamer-footer.png",
+      "issue": "右侧货物区文字与桌面插画重叠",
+      "severity": "P1",
+      "region": "中部右侧出租屋货物区域",
+      "evidence": "右侧表格下半部分与下方出租屋的桌面货物插画重叠，文字和插图互相干扰。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/039-gamer-footer.png",
+      "issue": "左右两表中间锯齿裂纹切开文字",
+      "severity": "P1",
+      "region": "中部两表之间的分隔线",
+      "evidence": "中间的锯齿状分界线穿过中间列的价格数字区域，可能切断文字或背景。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/039-gamer-footer.png",
+      "issue": "右侧表格最右侧数字被右边缘截断",
+      "severity": "P1",
+      "region": "右上角「买入价数量」列",
+      "evidence": "最右侧一列只露出数字「1」的左半边，其余内容被屏幕边缘裁切。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/040-gamer-hospital.png",
+      "issue": "弹窗遮挡底部城市按钮",
+      "severity": "P1",
+      "region": "中到下",
+      "evidence": "中部大弹窗覆盖了二手市场、农贸市场、批发市场、银行、医院、售楼部、中介等底部按钮的上半部分，导致这些按钮被遮挡无法完整点击。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/040-gamer-hospital.png",
+      "issue": "左侧边栏文字被截断",
+      "severity": "P2",
+      "region": "左侧边缘",
+      "evidence": "左侧边缘的“现”“一”“存”文字仅露出部分字符，被弹窗裁切不完整。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/040-gamer-hospital.png",
+      "issue": "商品价格列文字与插画重叠",
+      "severity": "P2",
+      "region": "中部",
+      "evidence": "市场和出租屋的商品表格区域底部，“微商面膜”和对应价格“777”的下半部分被下方的摊位插画（带格子台面的柜台）覆盖，显示不完整。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/041-gamer-footer.png",
+      "issue": "中部表格纵向分界线切穿文字",
+      "severity": "P1",
+      "region": "中部 y≈150-550 的纵向裂纹线",
+      "evidence": "从顶部延伸到底部的不规则裂纹纵向线，直接切穿市场、出租屋区域内的表格文字与背景插画",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/041-gamer-footer.png",
+      "issue": "控件表格文字与背景插画重叠",
+      "severity": "P2",
+      "region": "中部 y≈430-560 区域",
+      "evidence": "市场表格内的「微商面膜」「预制鸡块」文字层叠在下方摊位家具插画的顶面上",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/042-gamer-bank.png",
+      "issue": "左侧边缘文字被截断",
+      "severity": "P2",
+      "region": "中左侧",
+      "evidence": "左侧边缘竖排的「现」「有」等文字被画面边界截断，无法完整辨认。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/043-gamer-footer.png",
+      "issue": "市场和出租屋区域被裂缝切分，货物/价格文字被插画覆盖或挤压",
+      "severity": "P1",
+      "region": "中部，市场/出租屋表格区域",
+      "evidence": "抗原试纸和蛋白粉罐所在行被手绘裂缝和货架插画重叠遮挡，文字区域与插画互相穿插，影响读取",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/043-gamer-footer.png",
+      "issue": "出租屋列表右侧“买入价数量”栏的数值被右边界裁切",
+      "severity": "P2",
+      "region": "右上出租屋表格最右列",
+      "evidence": "微商面膜一行最右侧只露出数字“1”的左半部分，其余内容超出屏幕边界被截断",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/044-gamer-houses.png",
+      "issue": "上方房源标题被黑底遮挡",
+      "severity": "P1",
+      "region": "右上房源卡片顶部",
+      "evidence": "上方房源的标题文字区域被黑色块遮挡，只露出下方的售价和描述文字，无法看到完整房源名称。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/045-gamer-footer.png",
+      "issue": "微商面膜文字被货架插画遮挡",
+      "severity": "P2",
+      "region": "中",
+      "evidence": "市场列表“微商面膜”和价格“777”部分被货架插画的边缘盖住。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/045-gamer-footer.png",
+      "issue": "出租屋区域出现竖直裂缝样式分界线",
+      "severity": "P2",
+      "region": "中部偏右",
+      "evidence": "一条不规则裂缝从时间下方延伸到健康栏上方，纵向割裂了整个界面中部区域，影响可读性。",
+      "type": "other"
+    },
+    {
+      "file": "unique/046-engineer-houses.png",
+      "issue": "上排房产名称被遮挡区域截断",
+      "severity": "P1",
+      "region": "右上",
+      "evidence": "上方第一个房源的名称被黑块盖住，只露出右侧少量文字，完整名称没有显示出来。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/047-engineer-houses-leave.png",
+      "issue": "货物行被插画和分界线切穿",
+      "severity": "P1",
+      "region": "中间（约 y440-560）",
+      "evidence": "抗原试纸行及蛋白粉罐行被柜台插画、储物箱插图和纵向不规则分界穿插，货物名、价格被切开。",
+      "type": "overlap"
+    },
+    {
+      "file": "unique/047-engineer-houses-leave.png",
+      "issue": "出租屋买入区疑似内容缺失",
+      "severity": "P2",
+      "region": "右上（出租屋区 y160-420）",
+      "evidence": "右侧出租屋「货物/买入价数量」下没有可见列表，可能被插画占位或留空。",
+      "type": "other"
+    },
+    {
+      "file": "unique/047-engineer-houses-leave.png",
+      "issue": "底部按钮图标与文字轻微重叠",
+      "severity": "P2",
+      "region": "底部按钮区 y760-960",
+      "evidence": "二手市场、农贸市场、批发市场等按钮顶部图标压住按钮标题文字。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/048-engineer-classic-focus-walk.png",
+      "issue": "界面中部分割线穿透表格区域",
+      "severity": "P1",
+      "region": "中部表格区域",
+      "evidence": "一条不规则分割线从表格顶部斜向延伸到底部，切断了“市场/出租屋”的布局和下方商品展示区域。",
+      "type": "truncated_text"
+    },
+    {
+      "file": "unique/048-engineer-classic-focus-walk.png",
+      "issue": "底部图标按钮排列不整齐",
+      "severity": "P2",
+      "region": "底部功能区",
+      "evidence": "二手市场、农贸市场、批发市场三个按钮下方的银行、医院、售楼部、中介按钮出现错位，相邻按钮之间的边线不对齐。",
+      "type": "overlap"
+    }
+  ]
+}

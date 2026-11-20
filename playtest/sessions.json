@@ -1,0 +1,3800 @@
+{
+  "at": "2026-11-20T03:00:14.171Z",
+  "htmlVm": "maifangji/playtest/yehshi-device.html",
+  "sessions": 100,
+  "uniqueFrames": 48,
+  "elapsedMs": 46667,
+  "roles": {
+    "pm": 34,
+    "gamer": 33,
+    "engineer": 33
+  },
+  "errors": [],
+  "unique": [
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\001-pm-boot.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\002-pm-story.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\003-pm-story.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\004-pm-story.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\005-pm-story.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\006-pm-main-empty.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\007-pm-help-1.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\008-pm-help-2.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\009-pm-help-3.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\010-pm-help-4.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\011-pm-help-5.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\012-pm-help-6.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\013-pm-help-7.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\014-pm-help-8.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\015-pm-help-9.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\016-pm-playing.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\017-pm-buy-overlay.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\018-pm-bank.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\019-pm-hospital.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\020-pm-agency.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\021-pm-houses.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\022-pm-records.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\023-pm-market2.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\024-pm-quit-overlay.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\025-gamer-after-weeks.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\026-gamer-buy.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\027-gamer-buy2.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\028-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\029-gamer-after-weeks.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\030-gamer-buy.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\031-gamer-houses.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\032-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\033-gamer-after-weeks.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\034-gamer-hospital.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\035-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\036-gamer-bank.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\037-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\038-gamer-buy2.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\039-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\040-gamer-hospital.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\041-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\042-gamer-bank.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\043-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\044-gamer-houses.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\045-gamer-footer.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\046-engineer-houses.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\047-engineer-houses-leave.png",
+    "D:\\workspace\\XTApp AI\\maifangji\\playtest\\unique\\048-engineer-classic-focus-walk.png"
+  ],
+  "sessionsDetail": [
+    {
+      "id": 1,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "story-page",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\001\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "story",
+          "file": "playtest\\runs\\001\\story.png",
+          "fp": "480x800-201-f18e8c09"
+        }
+      ],
+      "ms": 289,
+      "error": false
+    },
+    {
+      "id": 2,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "story-page",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\002\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "story",
+          "file": "playtest\\runs\\002\\story.png",
+          "fp": "480x800-204-8e17202c"
+        }
+      ],
+      "ms": 244,
+      "error": false
+    },
+    {
+      "id": 3,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "story-page",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\003\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "story",
+          "file": "playtest\\runs\\003\\story.png",
+          "fp": "480x800-199-77f9cf67"
+        }
+      ],
+      "ms": 251,
+      "error": false
+    },
+    {
+      "id": 4,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "story-page",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\004\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "story",
+          "file": "playtest\\runs\\004\\story.png",
+          "fp": "480x800-197-e53108c5"
+        }
+      ],
+      "ms": 250,
+      "error": false
+    },
+    {
+      "id": 5,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "story-page",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\005\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "story",
+          "file": "playtest\\runs\\005\\story.png",
+          "fp": "480x800-227-d3a630e3"
+        }
+      ],
+      "ms": 275,
+      "error": false
+    },
+    {
+      "id": 6,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-1",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\006\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\006\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\006\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 316,
+      "error": false
+    },
+    {
+      "id": 7,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-2",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\007\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\007\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\007\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\007\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 331,
+      "error": false
+    },
+    {
+      "id": 8,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-3",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\008\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\008\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\008\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\008\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\008\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        }
+      ],
+      "ms": 374,
+      "error": false
+    },
+    {
+      "id": 9,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-4",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\009\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\009\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\009\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\009\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\009\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\009\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        }
+      ],
+      "ms": 362,
+      "error": false
+    },
+    {
+      "id": 10,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-5",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\010\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\010\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\010\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\010\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\010\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\010\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        },
+        {
+          "name": "help-5",
+          "file": "playtest\\runs\\010\\help-5.png",
+          "fp": "480x800-957-755b4a5d"
+        }
+      ],
+      "ms": 400,
+      "error": false
+    },
+    {
+      "id": 11,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-6",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\011\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\011\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\011\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\011\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\011\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\011\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        },
+        {
+          "name": "help-5",
+          "file": "playtest\\runs\\011\\help-5.png",
+          "fp": "480x800-957-755b4a5d"
+        },
+        {
+          "name": "help-6",
+          "file": "playtest\\runs\\011\\help-6.png",
+          "fp": "480x800-995-4806a5a3"
+        }
+      ],
+      "ms": 436,
+      "error": false
+    },
+    {
+      "id": 12,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-7",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\012\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\012\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\012\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\012\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\012\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\012\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        },
+        {
+          "name": "help-5",
+          "file": "playtest\\runs\\012\\help-5.png",
+          "fp": "480x800-957-755b4a5d"
+        },
+        {
+          "name": "help-6",
+          "file": "playtest\\runs\\012\\help-6.png",
+          "fp": "480x800-995-4806a5a3"
+        },
+        {
+          "name": "help-7",
+          "file": "playtest\\runs\\012\\help-7.png",
+          "fp": "480x800-1001-fdfbf4c9"
+        }
+      ],
+      "ms": 407,
+      "error": false
+    },
+    {
+      "id": 13,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-8",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\013\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\013\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\013\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\013\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\013\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\013\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        },
+        {
+          "name": "help-5",
+          "file": "playtest\\runs\\013\\help-5.png",
+          "fp": "480x800-957-755b4a5d"
+        },
+        {
+          "name": "help-6",
+          "file": "playtest\\runs\\013\\help-6.png",
+          "fp": "480x800-995-4806a5a3"
+        },
+        {
+          "name": "help-7",
+          "file": "playtest\\runs\\013\\help-7.png",
+          "fp": "480x800-1001-fdfbf4c9"
+        },
+        {
+          "name": "help-8",
+          "file": "playtest\\runs\\013\\help-8.png",
+          "fp": "480x800-1004-f87028cc"
+        }
+      ],
+      "ms": 483,
+      "error": false
+    },
+    {
+      "id": 14,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-step-9",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\014\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\014\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-1",
+          "file": "playtest\\runs\\014\\help-1.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-2",
+          "file": "playtest\\runs\\014\\help-2.png",
+          "fp": "480x800-802-5bfc7fc2"
+        },
+        {
+          "name": "help-3",
+          "file": "playtest\\runs\\014\\help-3.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "help-4",
+          "file": "playtest\\runs\\014\\help-4.png",
+          "fp": "480x800-994-a8adc02"
+        },
+        {
+          "name": "help-5",
+          "file": "playtest\\runs\\014\\help-5.png",
+          "fp": "480x800-957-755b4a5d"
+        },
+        {
+          "name": "help-6",
+          "file": "playtest\\runs\\014\\help-6.png",
+          "fp": "480x800-995-4806a5a3"
+        },
+        {
+          "name": "help-7",
+          "file": "playtest\\runs\\014\\help-7.png",
+          "fp": "480x800-1001-fdfbf4c9"
+        },
+        {
+          "name": "help-8",
+          "file": "playtest\\runs\\014\\help-8.png",
+          "fp": "480x800-1004-f87028cc"
+        },
+        {
+          "name": "help-9",
+          "file": "playtest\\runs\\014\\help-9.png",
+          "fp": "480x800-1000-96200c28"
+        }
+      ],
+      "ms": 492,
+      "error": false
+    },
+    {
+      "id": 15,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "buy-overlay",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\015\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\015\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\015\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "buy-overlay",
+          "file": "playtest\\runs\\015\\buy-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 372,
+      "error": false
+    },
+    {
+      "id": 16,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "buy-overlay",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\016\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\016\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\016\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "buy-overlay",
+          "file": "playtest\\runs\\016\\buy-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 370,
+      "error": false
+    },
+    {
+      "id": 17,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "buy-overlay",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\017\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\017\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\017\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "buy-overlay",
+          "file": "playtest\\runs\\017\\buy-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 343,
+      "error": false
+    },
+    {
+      "id": 18,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "buy-overlay",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\018\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\018\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\018\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "buy-overlay",
+          "file": "playtest\\runs\\018\\buy-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 371,
+      "error": false
+    },
+    {
+      "id": 19,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "bank",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\019\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\019\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\019\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\019\\bank.png",
+          "fp": "480x800-211-6815e413"
+        }
+      ],
+      "ms": 350,
+      "error": false
+    },
+    {
+      "id": 20,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "hospital",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\020\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\020\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\020\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\020\\hospital.png",
+          "fp": "480x800-223-bad28ddf"
+        }
+      ],
+      "ms": 347,
+      "error": false
+    },
+    {
+      "id": 21,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "agency",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\021\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\021\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\021\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "agency",
+          "file": "playtest\\runs\\021\\agency.png",
+          "fp": "480x800-231-f959f487"
+        }
+      ],
+      "ms": 372,
+      "error": false
+    },
+    {
+      "id": 22,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "houses",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\022\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\022\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\022\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\022\\houses.png",
+          "fp": "480x800-201-849bac89"
+        }
+      ],
+      "ms": 358,
+      "error": false
+    },
+    {
+      "id": 23,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "records",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\023\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\023\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\023\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "records",
+          "file": "playtest\\runs\\023\\records.png",
+          "fp": "480x800-167-4af77ca7"
+        }
+      ],
+      "ms": 351,
+      "error": false
+    },
+    {
+      "id": 24,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "disabled-current-market",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\024\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\024\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\024\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "disabled-market",
+          "file": "playtest\\runs\\024\\disabled-market.png",
+          "fp": "480x800-335-4528fb0f"
+        }
+      ],
+      "ms": 331,
+      "error": false
+    },
+    {
+      "id": 25,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "switch-market2",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\025\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\025\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\025\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "market2",
+          "file": "playtest\\runs\\025\\market2.png",
+          "fp": "480x800-322-215f8fa2"
+        }
+      ],
+      "ms": 357,
+      "error": false
+    },
+    {
+      "id": 26,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "switch-market2",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\026\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\026\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\026\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "market2",
+          "file": "playtest\\runs\\026\\market2.png",
+          "fp": "480x800-322-215f8fa2"
+        }
+      ],
+      "ms": 377,
+      "error": false
+    },
+    {
+      "id": 27,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "switch-market2",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\027\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\027\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\027\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "market2",
+          "file": "playtest\\runs\\027\\market2.png",
+          "fp": "480x800-322-215f8fa2"
+        }
+      ],
+      "ms": 346,
+      "error": false
+    },
+    {
+      "id": 28,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "switch-market2",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\028\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\028\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\028\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "market2",
+          "file": "playtest\\runs\\028\\market2.png",
+          "fp": "480x800-322-215f8fa2"
+        }
+      ],
+      "ms": 355,
+      "error": false
+    },
+    {
+      "id": 29,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "quit-cancel",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\029\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\029\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\029\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "quit-overlay",
+          "file": "playtest\\runs\\029\\quit-overlay.png",
+          "fp": "480x800-229-10de8265"
+        }
+      ],
+      "ms": 339,
+      "error": false
+    },
+    {
+      "id": 30,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "quit-cancel",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\030\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\030\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\030\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "quit-overlay",
+          "file": "playtest\\runs\\030\\quit-overlay.png",
+          "fp": "480x800-229-10de8265"
+        }
+      ],
+      "ms": 365,
+      "error": false
+    },
+    {
+      "id": 31,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "quit-cancel",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\031\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\031\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\031\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "quit-overlay",
+          "file": "playtest\\runs\\031\\quit-overlay.png",
+          "fp": "480x800-229-10de8265"
+        }
+      ],
+      "ms": 337,
+      "error": false
+    },
+    {
+      "id": 32,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-complete",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\032\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\032\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\032\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "help-last",
+          "file": "playtest\\runs\\032\\help-last.png",
+          "fp": "480x800-1000-96200c28"
+        },
+        {
+          "name": "after-help",
+          "file": "playtest\\runs\\032\\after-help.png",
+          "fp": "480x800-335-4528fb0f"
+        }
+      ],
+      "ms": 497,
+      "error": false
+    },
+    {
+      "id": 33,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-complete",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\033\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\033\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\033\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "help-last",
+          "file": "playtest\\runs\\033\\help-last.png",
+          "fp": "480x800-1000-96200c28"
+        },
+        {
+          "name": "after-help",
+          "file": "playtest\\runs\\033\\after-help.png",
+          "fp": "480x800-335-4528fb0f"
+        }
+      ],
+      "ms": 482,
+      "error": false
+    },
+    {
+      "id": 34,
+      "role": "pm",
+      "model": "x4_pro",
+      "goal": "help-complete",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\034\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "main-empty",
+          "file": "playtest\\runs\\034\\main-empty.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\034\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "help-last",
+          "file": "playtest\\runs\\034\\help-last.png",
+          "fp": "480x800-1000-96200c28"
+        },
+        {
+          "name": "after-help",
+          "file": "playtest\\runs\\034\\after-help.png",
+          "fp": "480x800-335-4528fb0f"
+        }
+      ],
+      "ms": 490,
+      "error": false
+    },
+    {
+      "id": 35,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\035\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\035\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\035\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\035\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\035\\buy2.png",
+          "fp": "480x800-231-a9a71f47"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\035\\footer.png",
+          "fp": "480x800-334-63d5b92e"
+        }
+      ],
+      "ms": 530,
+      "error": false
+    },
+    {
+      "id": 36,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\036\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\036\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\036\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\036\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\036\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\036\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 494,
+      "error": false
+    },
+    {
+      "id": 37,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\037\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\037\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\037\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\037\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\037\\hospital.png",
+          "fp": "480x800-226-db9aa522"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\037\\footer.png",
+          "fp": "480x800-329-ae734769"
+        }
+      ],
+      "ms": 466,
+      "error": false
+    },
+    {
+      "id": 38,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\038\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\038\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\038\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\038\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\038\\bank.png",
+          "fp": "480x800-213-9e0dfe75"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\038\\footer.png",
+          "fp": "480x800-329-c4267409"
+        }
+      ],
+      "ms": 570,
+      "error": false
+    },
+    {
+      "id": 39,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\039\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\039\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\039\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\039\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\039\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\039\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 455,
+      "error": false
+    },
+    {
+      "id": 40,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\040\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\040\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\040\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\040\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\040\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\040\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 479,
+      "error": false
+    },
+    {
+      "id": 41,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\041\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\041\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\041\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\041\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\041\\hospital.png",
+          "fp": "480x800-225-ad15ed21"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\041\\footer.png",
+          "fp": "480x800-327-3d00c4c7"
+        }
+      ],
+      "ms": 521,
+      "error": false
+    },
+    {
+      "id": 42,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\042\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\042\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\042\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\042\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\042\\bank.png",
+          "fp": "480x800-214-88ddfb56"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\042\\footer.png",
+          "fp": "480x800-331-3598f6ab"
+        }
+      ],
+      "ms": 492,
+      "error": false
+    },
+    {
+      "id": 43,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\043\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\043\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\043\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\043\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\043\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\043\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 475,
+      "error": false
+    },
+    {
+      "id": 44,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\044\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\044\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\044\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\044\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\044\\houses.png",
+          "fp": "480x800-201-a7904da9"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\044\\footer.png",
+          "fp": "480x800-337-b1996e11"
+        }
+      ],
+      "ms": 554,
+      "error": false
+    },
+    {
+      "id": 45,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\045\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\045\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\045\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\045\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\045\\hospital.png",
+          "fp": "480x800-226-db9aa522"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\045\\footer.png",
+          "fp": "480x800-329-ae734769"
+        }
+      ],
+      "ms": 465,
+      "error": false
+    },
+    {
+      "id": 46,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\046\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\046\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\046\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\046\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\046\\bank.png",
+          "fp": "480x800-214-88ddfb56"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\046\\footer.png",
+          "fp": "480x800-331-3598f6ab"
+        }
+      ],
+      "ms": 472,
+      "error": false
+    },
+    {
+      "id": 47,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\047\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\047\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\047\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\047\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\047\\buy2.png",
+          "fp": "480x800-231-a9a71f47"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\047\\footer.png",
+          "fp": "480x800-334-63d5b92e"
+        }
+      ],
+      "ms": 564,
+      "error": false
+    },
+    {
+      "id": 48,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\048\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\048\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\048\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\048\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\048\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\048\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 489,
+      "error": false
+    },
+    {
+      "id": 49,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\049\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\049\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\049\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\049\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\049\\hospital.png",
+          "fp": "480x800-226-db9aa522"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\049\\footer.png",
+          "fp": "480x800-329-ae734769"
+        }
+      ],
+      "ms": 478,
+      "error": false
+    },
+    {
+      "id": 50,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\050\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\050\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\050\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\050\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\050\\bank.png",
+          "fp": "480x800-213-9e0dfe75"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\050\\footer.png",
+          "fp": "480x800-329-c4267409"
+        }
+      ],
+      "ms": 569,
+      "error": false
+    },
+    {
+      "id": 51,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\051\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\051\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\051\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\051\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\051\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\051\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 467,
+      "error": false
+    },
+    {
+      "id": 52,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\052\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\052\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\052\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\052\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\052\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\052\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 505,
+      "error": false
+    },
+    {
+      "id": 53,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\053\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\053\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\053\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\053\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\053\\hospital.png",
+          "fp": "480x800-225-ad15ed21"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\053\\footer.png",
+          "fp": "480x800-327-3d00c4c7"
+        }
+      ],
+      "ms": 551,
+      "error": false
+    },
+    {
+      "id": 54,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\054\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\054\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\054\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\054\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\054\\bank.png",
+          "fp": "480x800-214-88ddfb56"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\054\\footer.png",
+          "fp": "480x800-331-3598f6ab"
+        }
+      ],
+      "ms": 507,
+      "error": false
+    },
+    {
+      "id": 55,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\055\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\055\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\055\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\055\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\055\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\055\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 476,
+      "error": false
+    },
+    {
+      "id": 56,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\056\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\056\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\056\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\056\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\056\\houses.png",
+          "fp": "480x800-201-a7904da9"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\056\\footer.png",
+          "fp": "480x800-337-b1996e11"
+        }
+      ],
+      "ms": 578,
+      "error": false
+    },
+    {
+      "id": 57,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\057\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\057\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\057\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\057\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\057\\hospital.png",
+          "fp": "480x800-226-db9aa522"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\057\\footer.png",
+          "fp": "480x800-329-ae734769"
+        }
+      ],
+      "ms": 523,
+      "error": false
+    },
+    {
+      "id": 58,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\058\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\058\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\058\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\058\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\058\\bank.png",
+          "fp": "480x800-214-88ddfb56"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\058\\footer.png",
+          "fp": "480x800-331-3598f6ab"
+        }
+      ],
+      "ms": 542,
+      "error": false
+    },
+    {
+      "id": 59,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\059\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\059\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\059\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\059\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\059\\buy2.png",
+          "fp": "480x800-231-a9a71f47"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\059\\footer.png",
+          "fp": "480x800-334-63d5b92e"
+        }
+      ],
+      "ms": 567,
+      "error": false
+    },
+    {
+      "id": 60,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\060\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\060\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\060\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\060\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\060\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\060\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 534,
+      "error": false
+    },
+    {
+      "id": 61,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\061\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\061\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\061\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\061\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\061\\hospital.png",
+          "fp": "480x800-226-db9aa522"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\061\\footer.png",
+          "fp": "480x800-329-ae734769"
+        }
+      ],
+      "ms": 649,
+      "error": false
+    },
+    {
+      "id": 62,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\062\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\062\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\062\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\062\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\062\\bank.png",
+          "fp": "480x800-213-9e0dfe75"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\062\\footer.png",
+          "fp": "480x800-329-c4267409"
+        }
+      ],
+      "ms": 658,
+      "error": false
+    },
+    {
+      "id": 63,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\063\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\063\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\063\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\063\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\063\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\063\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 543,
+      "error": false
+    },
+    {
+      "id": 64,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\064\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\064\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\064\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\064\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\064\\houses.png",
+          "fp": "480x800-202-d529c42a"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\064\\footer.png",
+          "fp": "480x800-337-7186bd71"
+        }
+      ],
+      "ms": 518,
+      "error": false
+    },
+    {
+      "id": 65,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\065\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\065\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\065\\after-weeks.png",
+          "fp": "480x800-325-6a0d2165"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\065\\buy.png",
+          "fp": "480x800-227-b411d0a3"
+        },
+        {
+          "name": "hospital",
+          "file": "playtest\\runs\\065\\hospital.png",
+          "fp": "480x800-225-ad15ed21"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\065\\footer.png",
+          "fp": "480x800-327-3d00c4c7"
+        }
+      ],
+      "ms": 604,
+      "error": false
+    },
+    {
+      "id": 66,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\066\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\066\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\066\\after-weeks.png",
+          "fp": "480x800-329-9ec265a9"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\066\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "bank",
+          "file": "playtest\\runs\\066\\bank.png",
+          "fp": "480x800-214-88ddfb56"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\066\\footer.png",
+          "fp": "480x800-331-3598f6ab"
+        }
+      ],
+      "ms": 517,
+      "error": false
+    },
+    {
+      "id": 67,
+      "role": "gamer",
+      "model": "x4_pro",
+      "goal": "gamer-loop",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\067\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "week1",
+          "file": "playtest\\runs\\067\\week1.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "after-weeks",
+          "file": "playtest\\runs\\067\\after-weeks.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "buy",
+          "file": "playtest\\runs\\067\\buy.png",
+          "fp": "480x800-228-9090fe44"
+        },
+        {
+          "name": "buy2",
+          "file": "playtest\\runs\\067\\buy2.png",
+          "fp": "480x800-232-c10f00e8"
+        },
+        {
+          "name": "footer",
+          "file": "playtest\\runs\\067\\footer.png",
+          "fp": "480x800-336-e08692d0"
+        }
+      ],
+      "ms": 534,
+      "error": false
+    },
+    {
+      "id": 68,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\068\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\068\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\068\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\068\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\068\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\068\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 400,
+      "error": false
+    },
+    {
+      "id": 69,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\069\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\069\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\069\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\069\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\069\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\069\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 423,
+      "error": false
+    },
+    {
+      "id": 70,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\070\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\070\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\070\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\070\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\070\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\070\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 402,
+      "error": false
+    },
+    {
+      "id": 71,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\071\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\071\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\071\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\071\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\071\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\071\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 402,
+      "error": false
+    },
+    {
+      "id": 72,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\072\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\072\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\072\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\072\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\072\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\072\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 405,
+      "error": false
+    },
+    {
+      "id": 73,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\073\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\073\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\073\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\073\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\073\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\073\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 387,
+      "error": false
+    },
+    {
+      "id": 74,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\074\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\074\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\074\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\074\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\074\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\074\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 435,
+      "error": false
+    },
+    {
+      "id": 75,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "help-hit-test",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\075\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\075\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-mask",
+          "file": "playtest\\runs\\075\\help-mask.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-leave",
+          "file": "playtest\\runs\\075\\help-leave.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "help-tap-mask-center",
+          "file": "playtest\\runs\\075\\help-tap-mask-center.png",
+          "fp": "480x800-999-bc0bdb67"
+        },
+        {
+          "name": "help-next",
+          "file": "playtest\\runs\\075\\help-next.png",
+          "fp": "480x800-802-5bfc7fc2"
+        }
+      ],
+      "ms": 524,
+      "error": false
+    },
+    {
+      "id": 76,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\076\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\076\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\076\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\076\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\076\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 481,
+      "error": false
+    },
+    {
+      "id": 77,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\077\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\077\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\077\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\077\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\077\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 439,
+      "error": false
+    },
+    {
+      "id": 78,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\078\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\078\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\078\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\078\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\078\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 475,
+      "error": false
+    },
+    {
+      "id": 79,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\079\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\079\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\079\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\079\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\079\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 465,
+      "error": false
+    },
+    {
+      "id": 80,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\080\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\080\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\080\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\080\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\080\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 463,
+      "error": false
+    },
+    {
+      "id": 81,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\081\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\081\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\081\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\081\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\081\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 433,
+      "error": false
+    },
+    {
+      "id": 82,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "overlay-block",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\082\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\082\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "playing",
+          "file": "playtest\\runs\\082\\playing.png",
+          "fp": "480x800-335-4528fb0f"
+        },
+        {
+          "name": "overlay-open",
+          "file": "playtest\\runs\\082\\overlay-open.png",
+          "fp": "480x800-225-5692221"
+        },
+        {
+          "name": "tap-through-overlay",
+          "file": "playtest\\runs\\082\\tap-through-overlay.png",
+          "fp": "480x800-225-5692221"
+        }
+      ],
+      "ms": 402,
+      "error": false
+    },
+    {
+      "id": 83,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\083\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\083\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\083\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\083\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\083\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 606,
+      "error": false
+    },
+    {
+      "id": 84,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\084\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\084\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\084\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\084\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\084\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 477,
+      "error": false
+    },
+    {
+      "id": 85,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\085\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\085\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\085\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\085\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\085\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 472,
+      "error": false
+    },
+    {
+      "id": 86,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\086\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\086\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\086\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\086\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\086\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 420,
+      "error": false
+    },
+    {
+      "id": 87,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\087\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\087\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\087\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\087\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\087\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 475,
+      "error": false
+    },
+    {
+      "id": 88,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\088\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\088\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\088\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\088\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\088\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 428,
+      "error": false
+    },
+    {
+      "id": 89,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\089\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\089\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\089\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\089\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\089\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 443,
+      "error": false
+    },
+    {
+      "id": 90,
+      "role": "engineer",
+      "model": "x4_pro",
+      "goal": "engineer-nav",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\090\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "pro-main",
+          "file": "playtest\\runs\\090\\pro-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "after-two-markets",
+          "file": "playtest\\runs\\090\\after-two-markets.png",
+          "fp": "480x800-328-28301aa8"
+        },
+        {
+          "name": "houses",
+          "file": "playtest\\runs\\090\\houses.png",
+          "fp": "480x800-201-5027e9a9"
+        },
+        {
+          "name": "houses-leave",
+          "file": "playtest\\runs\\090\\houses-leave.png",
+          "fp": "480x800-334-641de16e"
+        }
+      ],
+      "ms": 404,
+      "error": false
+    },
+    {
+      "id": 91,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\091\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\091\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\091\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\091\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\091\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\091\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\091\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 673,
+      "error": false
+    },
+    {
+      "id": 92,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\092\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\092\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\092\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\092\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\092\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\092\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\092\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 744,
+      "error": false
+    },
+    {
+      "id": 93,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\093\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\093\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\093\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\093\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\093\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\093\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\093\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 665,
+      "error": false
+    },
+    {
+      "id": 94,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\094\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\094\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\094\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\094\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\094\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\094\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\094\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 655,
+      "error": false
+    },
+    {
+      "id": 95,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\095\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\095\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\095\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\095\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\095\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\095\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\095\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 613,
+      "error": false
+    },
+    {
+      "id": 96,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\096\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\096\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\096\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\096\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\096\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\096\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\096\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 658,
+      "error": false
+    },
+    {
+      "id": 97,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\097\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\097\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\097\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\097\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\097\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\097\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\097\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 658,
+      "error": false
+    },
+    {
+      "id": 98,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\098\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\098\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\098\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\098\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\098\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\098\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\098\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 634,
+      "error": false
+    },
+    {
+      "id": 99,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\099\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\099\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\099\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\099\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\099\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\099\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\099\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 713,
+      "error": false
+    },
+    {
+      "id": 100,
+      "role": "engineer",
+      "model": "x4_classic",
+      "goal": "classic-keys",
+      "shots": [
+        {
+          "name": "boot",
+          "file": "playtest\\runs\\100\\boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-boot",
+          "file": "playtest\\runs\\100\\classic-boot.png",
+          "fp": "480x800-201-f18e8c09"
+        },
+        {
+          "name": "classic-main",
+          "file": "playtest\\runs\\100\\classic-main.png",
+          "fp": "480x800-322-93af3102"
+        },
+        {
+          "name": "classic-focus-walk",
+          "file": "playtest\\runs\\100\\classic-focus-walk.png",
+          "fp": "480x800-321-826257c1"
+        },
+        {
+          "name": "classic-help-or-action",
+          "file": "playtest\\runs\\100\\classic-help-or-action.png",
+          "fp": "480x800-167-4af77ca7"
+        },
+        {
+          "name": "classic-after-ok",
+          "file": "playtest\\runs\\100\\classic-after-ok.png",
+          "fp": "480x800-765-aa1685dd"
+        },
+        {
+          "name": "classic-playing",
+          "file": "playtest\\runs\\100\\classic-playing.png",
+          "fp": "480x800-999-bc0bdb67"
+        }
+      ],
+      "ms": 627,
+      "error": false
+    }
+  ]
+}

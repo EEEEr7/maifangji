@@ -1,0 +1,84 @@
+{
+  "leaveHasBothInk": true,
+  "nextHasBothInk": true,
+  "leave": {
+    "black": 806,
+    "white": 7174
+  },
+  "next": {
+    "black": 7616,
+    "white": 364
+  },
+  "goodsPanelMostlyWhite": true,
+  "goods": {
+    "black": 50,
+    "white": 6950
+  },
+  "footerHiddenInBuy": true,
+  "footerWhileBuy": {
+    "black": 0,
+    "white": 7448
+  },
+  "houseNameHasContrast": true,
+  "houseName": {
+    "black": 4406,
+    "white": 810
+  },
+  "houseImageHasArt": true,
+  "houseImage": {
+    "black": 16494,
+    "white": 20906
+  },
+  "bankCopyVisible": true,
+  "bankCopy": {
+    "black": 5485,
+    "white": 30515
+  },
+  "hospitalCopyVisible": true,
+  "hospitalCopy": {
+    "black": 3983,
+    "white": 32017
+  },
+  "buyTitleVisible": true,
+  "buyTitle": {
+    "black": 313,
+    "white": 1927
+  },
+  "buyConfirmFilled": true,
+  "buyConfirm": {
+    "black": 4746,
+    "white": 454
+  },
+  "buyCancelOutlined": true,
+  "buyCancel": {
+    "black": 737,
+    "white": 4463
+  },
+  "buyNameVisible": true,
+  "buyName": {
+    "black": 940,
+    "white": 8020
+  },
+  "newConfirmFilled": true,
+  "newConfirm": {
+    "black": 4784,
+    "white": 416
+  },
+  "newCancelOutlined": true,
+  "newCancel": {
+    "black": 737,
+    "white": 4463
+  },
+  "files": [
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\main-empty.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\help-1.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\help-5.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\help-9.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\new-game.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\playing.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\buy-overlay.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\bank.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\hospital.png",
+    "d:\\workspace\\XTApp AI\\maifangji\\playtest\\verify\\houses.png"
+  ]
+}
