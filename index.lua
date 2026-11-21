@@ -957,8 +957,8 @@ Layout.MAIN_VISUAL = {
   header_house_value = { x = 96, y = 18 },
   header_time_label = { x = 300, y = 18 },
   header_time_value = { x = 383, y = 18 },
-  market_title = { x = 103, y = 92 },
-  warehouse_title = { x = 343, y = 92 },
+  market_title = { x = 124, y = 92 },
+  warehouse_title = { x = 362, y = 92 },
   column_y = 120,
   market_goods = { x = 27, y = 120 },
   market_price = { x = 113, y = 120 },
@@ -1052,20 +1052,22 @@ Layout.ACTIVITIES = {
 
 -- 设备字体只有 24px，用加高描边按钮占满行情区空白；顶行仍锚在 XML 的 147。
 -- 状态栏绘制在 二手市场 上方 8px（y=508），五行均分 147..500。
+-- 行宽 168：最长货名「阅星曈X4P」实测 119px，货名字段只有 item.w-44，
+-- 原来是 150-44=106 会截成「阅星曈…」，加到 168 留 124px。
 Layout.GOODS_SLOTS = {
   first_y = 147,
-  w = 150,
+  w = 168,
   h = 70,
   step = 70,
   art_w = 135,
   art_h = 54,
-  sell_x = 232,
-  sell_w = 240,
+  sell_x = 252,
+  sell_w = 220,
 }
 
--- 底图旧竖线在 x≈200；新线在价格右缘 225 与仓库按钮 232 之间晃动。
+-- 底图旧竖线在 x≈200；新线落在价格区右缘 243 与仓库按钮 252 之间。
 Layout.COLUMN_DIVIDER = {
-  x = 228,
+  x = 248,
   y = 92,
   bottom = 508,
   erase = { x = 197, y = 90, w = 8, h = 365 },
@@ -1073,11 +1075,11 @@ Layout.COLUMN_DIVIDER = {
 
 Layout.GOODS_LIST = {
   market_goods = { x = 48, y = 120 },
-  market_price = { x = 164, y = 120 },
+  market_price = { x = 182, y = 120 },
   warehouse_goods = { x = 272, y = 120 },
   warehouse_price = { x = 328, y = 120 },
   warehouse_quantity = { x = 416, y = 120 },
-  market_price_box = { x = 150, y = 147, w = 75, h = 60 },
+  market_price_box = { x = 168, y = 147, w = 75, h = 60 },
   -- 买入价右缘、数量右缘。名字单独占上一行，数字在下一行，避免四字货名压住价格。
   warehouse_price_right = 400,
   warehouse_quantity_right = 464,
@@ -1287,6 +1289,11 @@ local TRADE_BTN_Y = 472
 local TRADE_SHORTCUT_Y = 420
 local AGENCY_BTN_Y = 563
 
+-- 备注卡（行情/人生/昏倒/终局/名声）共用 400x340 的卡面：黑底标题条 +
+-- 自动换行正文 + 底部实心「确认」。原来 231/227x300 的窄卡既装不下最长
+-- 文案，也看不见确认按钮（note_price_bg / note_event_bg 素材并不存在）。
+local NOTE_FRAME = { x = 40, y = 220, w = 400, h = 300 }
+
 local overlay_frames = {
   new_game = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
   quit_game = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
@@ -1295,15 +1302,23 @@ local overlay_frames = {
   bank = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
   hospital = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
   agency = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
-  price_note = { x = 125, y = 250, w = 231, h = 300 },
-  life_note = { x = 127, y = 250, w = 227, h = 300 },
-  sick_blackout = { x = 127, y = 250, w = 227, h = 300 },
-  sick_dead = { x = 127, y = 250, w = 227, h = 300 },
-  time_up = { x = 127, y = 250, w = 227, h = 300 },
-  sell_reputation = { x = 127, y = 250, w = 227, h = 300 },
+  price_note = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
+  life_note = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
+  sick_blackout = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
+  sick_dead = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
+  time_up = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
+  sell_reputation = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
   no_money = { x = 50, y = 333, w = 380, h = 133 },
   status = { x = 50, y = 333, w = 380, h = 133 },
   buy_succ = { x = 47, y = 160, w = 387, h = 480 },
+}
+
+-- 备注卡只有一段正文加一个「确认」，六种卡共用一套版式；正文最长的
+-- 「本局结束」在 352px 宽下是 5 行，卡面留 6 行余量。
+local NOTE_CARD = {
+  title_bar = { h = 48 },
+  text = { x = 64, y = 280, w = 352, h = 176, lineHeight = 26 },
+  button = { x = 170, y = 460, w = 140, h = 48, label = "确认" },
 }
 
 local modal_visuals = {
@@ -1350,24 +1365,12 @@ local modal_visuals = {
     note = { x = 27, y = 492, w = 427, lineHeight = 21 },
     fieldTextOffsetY = 14,
   },
-  price_note = {
-    text = { x = 147, y = 310, w = 187, lineHeight = 24 },
-  },
-  life_note = {
-    text = { x = 161, y = 322, w = 173, lineHeight = 24 },
-  },
-  sick_blackout = {
-    text = { x = 161, y = 322, w = 173, lineHeight = 24 },
-  },
-  sick_dead = {
-    text = { x = 161, y = 322, w = 173, lineHeight = 24 },
-  },
-  time_up = {
-    text = { x = 161, y = 322, w = 173, h = 216, lineHeight = 21 },
-  },
-  sell_reputation = {
-    text = { x = 161, y = 322, w = 173, lineHeight = 24 },
-  },
+  price_note = NOTE_CARD,
+  life_note = NOTE_CARD,
+  sick_blackout = NOTE_CARD,
+  sick_dead = NOTE_CARD,
+  time_up = NOTE_CARD,
+  sell_reputation = NOTE_CARD,
   no_money = {
     text = { x = 78, y = 349, w = 324, h = 61, lineHeight = 24 },
   },
@@ -3468,7 +3471,50 @@ local function draw_overlay_actions(g, saved, actions)
   end
 end
 
+-- 备注卡绘制：卡面（白底 + 黑框）已由 draw_overlay_frame 画好，这里补
+-- 黑底标题条、正文和底部实心「确认」。整张卡仍是整块点击热区，
+-- 所以点按钮、点卡片任意位置都会确认并进到下一条消息。
+local function draw_note_card(g, saved, visual)
+  local frame = Layout.overlay_frame(saved.overlay.kind)
+  if not frame then return end
+  local bar_h = math.max(32, math.min(frame.h, (visual.title_bar and visual.title_bar.h) or 48))
+  g:rect(frame.x, frame.y, frame.w, bar_h, { fill = true, color = BLACK })
+  local title = tostring(saved.overlay.title or "")
+  if title ~= "" then
+    center(
+      g,
+      frame.x + frame.w / 2,
+      frame.y + math.max(2, math.floor((bar_h - 24) / 2)),
+      View.fit_text(title, frame.w - 32),
+      WHITE
+    )
+  end
+  local text = visual.text
+  local maximum_lines = math.max(1, math.floor(text.h / text.lineHeight))
+  draw_wrapped_text(
+    g,
+    text.x,
+    text.y,
+    saved.overlay.text or "",
+    text.w,
+    text.lineHeight,
+    maximum_lines
+  )
+  local spec = visual.button
+  button(g, {
+    x = spec.x,
+    y = spec.y,
+    w = spec.w,
+    h = spec.h,
+    label = spec.label or "确认",
+  }, true)
+end
+
 local function draw_xml_text_overlay(g, saved, visual, actions)
+  if visual.button then
+    draw_note_card(g, saved, visual)
+    return
+  end
   if visual.image then
     g:rect(visual.image.x, visual.image.y, visual.image.w, visual.image.h, { color = BLACK })
     local house_index = saved.game and saved.game.selected_house
@@ -3484,9 +3530,6 @@ local function draw_xml_text_overlay(g, saved, visual, actions)
   if saved.overlay.kind == "buy_succ" then
     local pages = View.success_text_pages(value)
     value = pages[math.max(1, math.min(#pages, saved.overlay.page or 1))]
-  end
-  if saved.overlay.kind == "price_note" then
-    g:rect(text.x - 4, text.y - 4, text.w + 8, math.min(5, maximum_lines) * text.lineHeight + 8, { fill = true, color = WHITE })
   end
   draw_wrapped_text(
     g,
