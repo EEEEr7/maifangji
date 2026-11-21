@@ -20,7 +20,7 @@ local GOODS = {
   { name = "蛋白粉罐", average_price = 720 },
   { name = "新风滤芯", average_price = 1500 },
   { name = "金豆金条", average_price = 3000 },
-  { name = "阅星曈X4P", average_price = 7000 },
+  { name = "X4 Pro", average_price = 7000 },
   { name = "老头乐车", average_price = 19000 },
 }
 
@@ -299,8 +299,8 @@ local GOODS_TEXTS = {
     down = "    美联储放话加息， 国际金价一路下跌， 金豆金条价格走低。",
   },
   [7] = {
-    up = "    阅星曈X4P被黄牛炒上天， 加价到拿不到货， 新货供不应求！",
-    down = "    官方说现货充足不支持黄牛， 阅星曈X4P价格腰斩。",
+    up = "    X4 Pro被黄牛炒上天， 加价到拿不到货， 新货供不应求！",
+    down = "    官方说现货充足不支持黄牛， X4 Pro价格腰斩。",
   },
   [8] = {
     up = "    老头乐经销商说：“工厂产能不足， 提车必须加价！”",
@@ -957,8 +957,8 @@ Layout.MAIN_VISUAL = {
   header_house_value = { x = 96, y = 18 },
   header_time_label = { x = 300, y = 18 },
   header_time_value = { x = 383, y = 18 },
-  market_title = { x = 124, y = 92 },
-  warehouse_title = { x = 362, y = 92 },
+  market_title = { x = 103, y = 92 },
+  warehouse_title = { x = 343, y = 92 },
   column_y = 120,
   market_goods = { x = 27, y = 120 },
   market_price = { x = 113, y = 120 },
@@ -1052,22 +1052,21 @@ Layout.ACTIVITIES = {
 
 -- 设备字体只有 24px，用加高描边按钮占满行情区空白；顶行仍锚在 XML 的 147。
 -- 状态栏绘制在 二手市场 上方 8px（y=508），五行均分 147..500。
--- 行宽 168：最长货名「阅星曈X4P」实测 119px，货名字段只有 item.w-44，
--- 原来是 150-44=106 会截成「阅星曈…」，加到 168 留 124px。
+-- 货名最长是「X4 Pro」79px，150-44=106 绰绰有余；别放 5 个汉字以上的名字。
 Layout.GOODS_SLOTS = {
   first_y = 147,
-  w = 168,
+  w = 150,
   h = 70,
   step = 70,
   art_w = 135,
   art_h = 54,
-  sell_x = 252,
-  sell_w = 220,
+  sell_x = 232,
+  sell_w = 240,
 }
 
--- 底图旧竖线在 x≈200；新线落在价格区右缘 243 与仓库按钮 252 之间。
+-- 底图旧竖线在 x≈200；新线在价格右缘 225 与仓库按钮 232 之间晃动。
 Layout.COLUMN_DIVIDER = {
-  x = 248,
+  x = 228,
   y = 92,
   bottom = 508,
   erase = { x = 197, y = 90, w = 8, h = 365 },
@@ -1075,11 +1074,11 @@ Layout.COLUMN_DIVIDER = {
 
 Layout.GOODS_LIST = {
   market_goods = { x = 48, y = 120 },
-  market_price = { x = 182, y = 120 },
+  market_price = { x = 164, y = 120 },
   warehouse_goods = { x = 272, y = 120 },
   warehouse_price = { x = 328, y = 120 },
   warehouse_quantity = { x = 416, y = 120 },
-  market_price_box = { x = 168, y = 147, w = 75, h = 60 },
+  market_price_box = { x = 150, y = 147, w = 75, h = 60 },
   -- 买入价右缘、数量右缘。名字单独占上一行，数字在下一行，避免四字货名压住价格。
   warehouse_price_right = 400,
   warehouse_quantity_right = 464,
@@ -2384,7 +2383,7 @@ local function run_overlay_action(saved, id)
       set_passive_overlay(saved, {
         kind = "sell_reputation",
         title = "名声变化",
-        text = "倒卖微商面膜和阅星曈X4P会掉名声。 砖家说：年轻人要洁身自好。",
+        text = "倒卖微商面膜和X4 Pro会掉名声。 砖家说：年轻人要洁身自好。",
       })
     elseif result.ok then
       close_overlay(saved)
