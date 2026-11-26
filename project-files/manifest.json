@@ -2,7 +2,7 @@
   "app_id": "u-10a6ee96",
   "name": "maifangji",
   "display_name": "白手买房",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "api": "2.26",
   "entry": "index.lua",
   "display": {
@@ -123,7 +123,8 @@
     "goods_thumb_06",
     "goods_thumb_07",
     "goods_thumb_08",
-    "agency_bg"
+    "agency_bg",
+    "trade_bg"
   ],
   "author": "Er7",
   "description": "在夜市里做一年买卖：盯行情、管健康和名声，52 周内买下心仪住房。"
