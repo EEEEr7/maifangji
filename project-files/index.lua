@@ -1275,7 +1275,6 @@ end
 
 -- Trade dialogs keep a shortcut row inside the modal so it does not cover
 -- the main-screen footer.  Buttons use the same 100x52 paper style as bank.
-local TRADE_CONTENT_HEIGHT = 127
 local QTY_ROW_HEIGHT = 36
 local SERVICE_FRAME = { x = 27, y = 400, w = 427, h = 220 }
 -- 买入/卖出盖住行情区，现金和数量都画在这张卡片里面。
@@ -1286,7 +1285,14 @@ local SERVICE_BTN_Y = 548
 local TRADE_QTY_Y = 332
 local TRADE_BTN_Y = 472
 local TRADE_SHORTCUT_Y = 420
-local AGENCY_BTN_Y = 563
+
+-- 中介卡换成一整幅豆包出的满宽纸卡：卡面上沿压在行情第 5 行的分界线上，左右两边
+-- 不再露出被切一半的图标；现金/存款从原来浮在卡外的那条横条搬进卡内标题行。
+-- 44 高的加减按钮让数量行、代价、快捷数量条、按钮各自留出 8px 间距，整卡 427..691。
+local AGENCY_FRAME = { x = 0, y = 427, w = 480, h = 264 }
+local AGENCY_STEPPER = { y = 481, w = 44, h = 44 }
+local AGENCY_CHIP = { y = 565, w = 68, h = 32, gap = 6 }
+local AGENCY_BTN_Y = 605
 
 -- 备注卡（行情/人生/昏倒/终局/名声）共用 400x340 的卡面：黑底标题条 +
 -- 自动换行正文 + 底部实心「确认」。原来 231/227x300 的窄卡既装不下最长
@@ -1300,7 +1306,7 @@ local overlay_frames = {
   sell_goods = { x = TRADE_FRAME.x, y = TRADE_FRAME.y, w = TRADE_FRAME.w, h = TRADE_FRAME.h },
   bank = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
   hospital = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
-  agency = { x = SERVICE_FRAME.x, y = SERVICE_FRAME.y, w = SERVICE_FRAME.w, h = SERVICE_FRAME.h },
+  agency = { x = AGENCY_FRAME.x, y = AGENCY_FRAME.y, w = AGENCY_FRAME.w, h = AGENCY_FRAME.h },
   price_note = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
   life_note = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
   sick_blackout = { x = NOTE_FRAME.x, y = NOTE_FRAME.y, w = NOTE_FRAME.w, h = NOTE_FRAME.h },
@@ -1356,13 +1362,14 @@ local modal_visuals = {
     text = { x = 144, y = 418, w = 280, lineHeight = 24 },
   },
   agency = {
-    title = { x = 40, y = 413 },
-    content_mask = { x = 118, y = 413, w = 336, h = 79 },
-    prefix = { x = 118, y = 428, w = 48, h = 52 },
-    input = { x = 214, y = 428, w = 56, h = 52 },
-    suffix = { x = 318, y = 428, w = 136, h = 52 },
-    note = { x = 27, y = 492, w = 427, lineHeight = 21 },
-    fieldTextOffsetY = 14,
+    -- 标题写进卡面左上那块挂牌里，资金跟在同一行右侧。
+    title = { cx = 89, y = 449 },
+    funds = { right = 456, y = 449, w = 286 },
+    prefix = { x = 56, y = 491, w = 48 },
+    input = { x = 154, y = AGENCY_STEPPER.y, w = 76, h = AGENCY_STEPPER.h },
+    suffix = { x = 280, y = 491, w = 144 },
+    note = { centerX = 240, y = 533 },
+    fieldTextOffsetY = 10,
   },
   price_note = NOTE_CARD,
   life_note = NOTE_CARD,
@@ -1439,8 +1446,8 @@ local overlay_action_sets = {
   agency = {
     action("expand", 128, AGENCY_BTN_Y, SERVICE_BTN.w, SERVICE_BTN.h, "成交"),
     action("close_overlay", 252, AGENCY_BTN_Y, SERVICE_BTN.w, SERVICE_BTN.h, "离开"),
-    action("quantity_minus", 166, 428, QTY_BTN.w, QTY_BTN.h, "－"),
-    action("quantity_plus", 270, 428, QTY_BTN.w, QTY_BTN.h, "＋"),
+    action("quantity_minus", 110, AGENCY_STEPPER.y, AGENCY_STEPPER.w, AGENCY_STEPPER.h, "－"),
+    action("quantity_plus", 230, AGENCY_STEPPER.y, AGENCY_STEPPER.w, AGENCY_STEPPER.h, "＋"),
   },
 }
 
@@ -1521,12 +1528,24 @@ function Layout.agency_maximum(saved)
 end
 
 function Layout.agency_qty_actions(maximum)
-  return quantity_actions(
-    AGENCY_QTY_SPECS,
-    overlay_frames.agency,
-    maximum,
-    overlay_frames.agency.y + TRADE_CONTENT_HEIGHT
-  )
+  -- 快捷数量条只在买得起 2 套以上时才出现，免得和「全部」这种单按钮重复。
+  local visible = {}
+  for _, spec in ipairs(AGENCY_QTY_SPECS) do
+    if (tonumber(maximum) or 1) >= spec.min then visible[#visible + 1] = spec end
+  end
+  if #visible < 2 then return {} end
+  local total = #visible * AGENCY_CHIP.w + (#visible - 1) * AGENCY_CHIP.gap
+  local x = math.floor((AGENCY_FRAME.w - total) / 2)
+  local out = {}
+  for _, spec in ipairs(visible) do
+    local word = "全部"
+    if spec.divisor == 2 then word = "一半"
+    elseif spec.divisor == 4 then word = "四分"
+    elseif spec.divisor == 10 then word = "一成" end
+    out[#out + 1] = action(spec.id, x, AGENCY_CHIP.y, AGENCY_CHIP.w, AGENCY_CHIP.h, word)
+    x = x + AGENCY_CHIP.w + AGENCY_CHIP.gap
+  end
+  return out
 end
 
 local function sell_stock(saved)
@@ -2704,7 +2723,7 @@ local OVERLAY_FRAME_ASSETS = {
   sell_goods = nil,
   bank = "bank_bg",
   hospital = "hospital_bg",
-  agency = nil,
+  agency = "agency_bg",
   price_note = "note_price_bg",
   life_note = "note_event_bg",
   sick_blackout = "note_event_bg",
@@ -3672,16 +3691,19 @@ local function draw_actionable_overlay(g, saved, actions)
     end
     draw_overlay_heading(g, frame, "医院", guidance)
   elseif kind == "agency" then
-    draw_overlay_heading(g, frame, "中介")
-    -- 只盖住数量行底图错位字，左侧标题「中介」必须露出来。
-    g:rect(visual.content_mask.x, visual.content_mask.y, visual.content_mask.w, visual.content_mask.h, { fill = true, color = WHITE })
-    center(
-      g,
-      visual.prefix.x + visual.prefix.w / 2,
-      visual.prefix.y + visual.fieldTextOffsetY,
-      "增加",
-      BLACK
-    )
+    local game = saved.game or {}
+    local cash = tonumber(game.cash) or 0
+    local deposit = tonumber(game.deposit) or 0
+    -- 标题钉在卡面左上的挂牌里，资金跟在同一行右侧；金额太长时退回只报总额。
+    center(g, visual.title.cx, visual.title.y, "中介", BLACK)
+    local funds = "现金：" .. money(cash) .. "  存款：" .. money(deposit)
+    if View.text_width(funds) > visual.funds.w then
+      funds = "可用：" .. money(cash + deposit)
+    end
+    draw_aligned(g, visual.funds.right, visual.funds.y, funds, BLACK, "right")
+    center(g, visual.prefix.x + visual.prefix.w / 2, visual.prefix.y, "增加", BLACK)
+    center(g, visual.suffix.x + visual.suffix.w / 2, visual.suffix.y, "个出租屋空间", BLACK)
+    g:rect(visual.input.x, visual.input.y, visual.input.w, visual.input.h, { fill = true, color = WHITE })
     g:rect(visual.input.x, visual.input.y, visual.input.w, visual.input.h, { color = BLACK })
     center(
       g,
@@ -3692,25 +3714,11 @@ local function draw_actionable_overlay(g, saved, actions)
     )
     center(
       g,
-      visual.suffix.x + visual.suffix.w / 2,
-      visual.suffix.y + visual.fieldTextOffsetY,
-      "个出租屋空间",
-      BLACK
-    )
-    center(
-      g,
-      visual.note.x + visual.note.w / 2,
+      visual.note.centerX,
       visual.note.y,
       "共需要花费" .. money(saved.quantity * 10000) .. "元",
       BLACK
     )
-    local frame = Layout.overlay_frame(kind)
-    for _, item in ipairs(actions) do
-      if string.match(item.id, "^agency_qty_") then
-        g:rect(frame.x, item.y, frame.w, item.h, { fill = true, color = WHITE })
-        break
-      end
-    end
   end
   draw_overlay_actions(g, saved, actions)
 end
@@ -3725,7 +3733,7 @@ local function draw_overlay_frame(g, kind, frame, background)
   local drawn = background and image_drawn(g, background, frame.x, frame.y)
   local source_height = (
     kind == "buy_goods" or kind == "sell_goods"
-      or kind == "bank" or kind == "hospital" or kind == "agency"
+      or kind == "bank" or kind == "hospital"
   ) and 127 or frame.h
   if drawn and frame.h > source_height then
     g:rect(frame.x, frame.y + source_height, frame.w, frame.h - source_height, { fill = true, color = WHITE })
@@ -3740,10 +3748,12 @@ local function draw_overlay_funds(g, saved, frame)
   local kind = saved.overlay and saved.overlay.kind
   if not game or not frame then return end
   if kind == "buy_goods" or kind == "sell_goods" then return end
-  if kind ~= "bank" and kind ~= "hospital" and kind ~= "agency" and kind ~= "quit_game" then
+  -- 中介卡的现金/存款画在卡面标题行里，这套浮空横条只服务银行/医院/结束游戏。
+  if kind ~= "bank" and kind ~= "hospital" and kind ~= "quit_game" then
     return
   end
-  local bar_y = frame.y - 36
+  -- 横条底边直接压在卡面上沿，避免中间那条缝把行情列表的字漏出来。
+  local bar_y = frame.y - 32
   if bar_y < 60 then bar_y = frame.y + 6 end
   g:rect(frame.x, bar_y, frame.w, 32, { fill = true, color = WHITE })
   g:rect(frame.x, bar_y, frame.w, 32, { color = BLACK })
